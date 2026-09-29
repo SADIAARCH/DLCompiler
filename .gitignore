@@ -1,0 +1,27 @@
+# Build output
+build/
+cmake-build-*/
+*.o
+*.obj
+*.a
+*.so
+*.exe
+
+# Generated protobuf code
+*.pb.h
+*.pb.cc
+
+# Generated model files and downloads
+models/*.onnx
+third_party/onnx.proto
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
